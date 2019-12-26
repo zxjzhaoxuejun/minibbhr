@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#3385ff",
+    "backgroundColor": "#3385ff"
+  },
+  "usingComponents": {
+    "tab-bar": "/components/tabbar"
+  }
+}

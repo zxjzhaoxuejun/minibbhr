@@ -11,10 +11,10 @@
 				<image src="../../static/city.png" alt="city" class="girg-icon"></image>
 				<view>参保城市</view>
 			</view>
-			<view class="girg-list-aitem m-b">
+			<navigator url="../calculator/calculator" class="girg-list-aitem m-b">
 				<image src="../../static/calculator.png" class="girg-icon"></image>
 				<view>社保计算器</view>
-			</view>
+			</navigator>
 			<view class="girg-list-aitem m-b">
 				<image src="../../static/customer.png" class="girg-icon"></image>
 				<view>在线客服</view>

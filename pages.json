@@ -18,6 +18,12 @@
 				"navigationBarTitleText": "社保计算器"
 			}
         }
+        ,{
+            "path" : "pages/buy/buy",
+            "style" : {
+				"navigationBarTitleText": "购买社保"
+			}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",

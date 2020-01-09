@@ -3,7 +3,7 @@
 		<!-- <bw-img-upload style="width:100%" ></bw-img-upload> -->
 		<bw-swiper :swiperList="swiperList" style="width:100%"></bw-swiper>
 		<view class="girg-list">
-			<view class="girg-list-item m-b girg-bg">社保缴纳</view>
+			<navigator url="../buy/buy" class="girg-list-item m-b girg-bg">社保缴纳</navigator>
 			<view class="girg-list-item m-b girg-bg">申请补缴</view>
 		</view>
 		<view class="girg-list">

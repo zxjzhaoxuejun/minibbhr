@@ -34,7 +34,7 @@ export default {
 					selectPath:'../../static/home_c.png'
 				},
 				{
-					pagePath: '../index/index',
+					pagePath: '../buy/buy',
 					name:'缴费',
 					iconPath: '../../static/pay.png',
 					selectPath:'../../static/pay_c.png'

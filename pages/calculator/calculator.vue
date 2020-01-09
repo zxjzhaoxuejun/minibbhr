@@ -44,7 +44,7 @@
 			<view class="list-mode">
 				<view class="list-name">社保基数</view>
 				<view class="list-input">
-					<input type="number" v-model="baseValue" :placeholder="getDefaultValue" @change="checkInputChange" />
+					<input type="number" v-model="baseValue" class="input" :placeholder="getDefaultValue" @change="checkInputChange" />
 					<checkbox-group v-if="getDefaultValue != '请输入'" class="check-box" @change="checkboxChange">
 						<label>
 							<checkbox value="1" :checked="isBase" style="transform:scale(0.6)" />
@@ -442,6 +442,10 @@ export default {
 			}
 
 			.check-box {
+				width: 50%;
+			}
+			
+			.input{
 				width: 50%;
 			}
 		}
